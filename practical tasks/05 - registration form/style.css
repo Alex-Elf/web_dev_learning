@@ -1,0 +1,47 @@
+form{
+	width: 400px;
+	height: 270px;
+	font: 23px arial;
+
+	border: 2px solid #007bff;
+	background-color: #42b0f4;
+}
+.reg{
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid white;
+}
+.reg h3{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: white;
+}
+.data{
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 75%;
+	width: 100%;
+}
+.container {
+	height: 33%;
+}
+label{
+	display: block;
+	color: white;
+}
+.passw{
+	display: inline-block;
+	height: 25%;
+ 	width: 50%;
+ 	float: left;
+}
+input[type="email"] {
+	width: 340px;
+}
+input[type = "submit"]{
+	background: #ffd326;
+	border: none;
+	height: 25px;
+}
+

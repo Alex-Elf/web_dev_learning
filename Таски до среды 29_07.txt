@@ -1,9 +1,8 @@
-﻿Таски до среды 29/07:
+Таски до среды 29/07:
 
-http://htmlbook.ru/practical/tsvetnye-kolonki-v-tablitse
-http://htmlbook.ru/practical/forma-registracii
-http://htmlbook.ru/practical/tablitsa-s-zebroi
-http://htmlbook.ru/practical/ssylka-kak-knopka
+
+7 - http://htmlbook.ru/practical/ssylka-kak-knopka
+
 http://htmlbook.ru/practical/reyting
 http://htmlbook.ru/practical/prognoz-pogody
 http://htmlbook.ru/practical/obyazatelnye-polya-formy

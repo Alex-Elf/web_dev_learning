@@ -1,0 +1,12 @@
+input{
+	margin-top: 5px;
+}
+span{
+	margin-left: 5px;
+}
+input:valid + span:after{
+	content: url(images/ok.png)
+}
+input:invalid + span:after{
+	content: url(images/nook.png)
+}

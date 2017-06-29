@@ -1,0 +1,16 @@
+div{
+	width: 80px; height: 80px;
+	border: 1px solid #dbdbdb;
+
+	position: absolute;
+}
+.black{
+	background-color: black;
+	box-shadow: inset 0 0 0 1px white;
+	z-index: -1;
+}
+.white{
+	background-color: white;
+	left: 40px;
+	top: 40px;
+}
