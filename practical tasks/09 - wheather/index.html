@@ -4,12 +4,10 @@
   <meta charset="utf-8">
   <title>Weather</title>
   <style>
-  	div{
-
+  	.weather{
   		float:left;
   		margin-right: 4px;
   	}
-
   	img{
   		display: block;
   		width: 114px;
@@ -25,23 +23,23 @@
   		background-color: #00b2db;
   		color: white;
   	}
-  	div:hover{
+  	.weather:hover{
   		box-shadow: 0 0 4px black;
   	}
   </style>
  </head>
  <body>
- 	<div>
+ 	<div class="weather">
  		<p class = "day"> 31.08 </p>
  		<img src="images/weather-sun.jpg">
  		<p class="temperature"> +20&deg;<p>
  	</div>
- 	<div>
+ 	<div class="weather">
  		<p class = "day"> 01.09 </p>
  		<img src="images/weather-snow.jpg">
  		<p class="temperature"> -3&deg;<p>
- 	</div>
- 	<div>
+ 	</div class="weather">
+ 	<div class="weather">
  		<p class = "day"> 02.09 </p>
  		<img src="images/weather-blizzard.jpg">
  		<p class="temperature"> -10&deg;<p>
