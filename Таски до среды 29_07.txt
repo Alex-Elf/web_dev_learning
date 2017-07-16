@@ -2,15 +2,16 @@
 
 
 7 - http://htmlbook.ru/practical/ssylka-kak-knopka
-
 http://htmlbook.ru/practical/reyting
 http://htmlbook.ru/practical/prognoz-pogody
 http://htmlbook.ru/practical/obyazatelnye-polya-formy
 http://htmlbook.ru/practical/krugovaya-diagramma
 http://htmlbook.ru/practical/kvadraty
-http://htmlbook.ru/practical/znachki-dlya-listaniya-fotografii
 http://htmlbook.ru/practical/granitsa-vokrug-formy
+
+http://htmlbook.ru/practical/znachki-dlya-listaniya-fotografii
+
 http://htmlbook.ru/practical/glamurnaya-knopka
 
 
-Все выполненные задания заливать к себе в гитхаб, можно хоть в одну страницу все
+Все выполненные задания заливать к себе в гитхаб, можно хоть в одну страницу Все

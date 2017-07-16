@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Социальные связи</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  img{
+    border-radius:50%;
+    border:3px solid #ccc;
+  }
+  .person a{
+    height: 30px; width: 30px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .icon{
+    background:url(img/social_icons.png);}
+  .person{
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+  .mail{background-position: 100% 100%;
+    bottom: -10px;
+    left: 70px;
+  }
+  .fb{background-position: 0% 100%;
+    top: 60px;
+    left: -13px;
+  }
+  .tw{background-position: 33% 100%;
+    top: 28px;
+    left: -5px;
+  }
+  .vk{background-position: 66% 100%;
+    top: 2px;
+    left:15px;
+  }
+  .fb:hover{background-position: 0 0}
+  .tw:hover{background-position: 33% 0}
+  .vk:hover{background-position: 66% 0}
+  .mail:hover{background-position: 100% 0}
+  </style>
+ </head>
+ <body>
+ <div class="wrapper">
+   <div class="person">
+     <img src="img/person1.jpg">
+     <a href="#" alt = "Написать письмо" class="icon mail"></a>
+     <a href="#" alt = "Написать письмо" class="icon fb"></a>
+     <a href="#" alt = "Написать письмо" class="icon vk"></a>
+     <a href="#" alt = "Написать письмо" class="icon tw"></a>
+   </div>
+   <div class="person">
+     <img src="img/person2.jpg">
+     <a href="#" alt = "Написать письмо" class="icon mail"></a>
+     <a href="#" alt = "Написать письмо" class="icon vk"></a>
+   </div>
+   <div class="person">
+     <img src="img/person3.jpg">
+     <a href="#" alt = "Написать письмо" class="icon mail"></a>
+     <a href="#" alt = "Написать письмо" class="icon vk"></a>
+     <a href="#" alt = "Написать письмо" class="icon fb"></a>
+   </div>
+ </div>
+
+ </body>
+</html>
