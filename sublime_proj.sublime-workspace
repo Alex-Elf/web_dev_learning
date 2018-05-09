@@ -1,0 +1,711 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"all",
+				"align-self"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mare",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"sha",
+				"box-shadow"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"bordr",
+				"border-radius"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pis",
+				"position"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"s",
+				"skewX()"
+			],
+			[
+				"ske",
+				"skewX()"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"con",
+				"cons"
+			],
+			[
+				"c",
+				"car"
+			],
+			[
+				"lis",
+				"list1"
+			],
+			[
+				"cur",
+				"CursorLockMode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Электронный сомелье</title>\n\t<meta charset=\"utf-8\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n</head>\n<body>\n\t<div class=\"wrapper\">\n\t\t<!--first raw-->\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"title blue\">\n\t\t\t\t<span class=\"titleInfo\">Бокал</span>\n\t\t\t\t<span class=\"titleExtra\">n видов</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"title blue\">\n\t\t\t\t<span class=\"titleInfo\">Тип</span>\n\t\t\t\t<span class=\"titleExtra\">8 типа</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t<div class=\"scrollblock\">\n\t\t\t\t\t<input id=\"type1\" type=\"radio\" name=\"type\" value=\"Аппертивы\">\n\t\t\t\t\t<label for=\"type1\">Аппертивы</label>\n\t\t\t\t\t<input id=\"type2\" type=\"radio\" name=\"type\" value=\"Диджестивы\" checked>\n\t\t\t\t\t<label for=\"type2\">Диджестивы</label>\n\t\t\t\t\t<input id=\"type3\" type=\"radio\" name=\"type\" value=\"Горячие\">\n\t\t\t\t\t<label for=\"type3\">Горячие</label>\n\t\t\t\t\t<input id=\"type4\" type=\"radio\" name=\"type\" value=\"Молочные\" disabled>\n\t\t\t\t\t<label for=\"type4\">Молочные</label>\n\t\t\t\t\t<input id=\"type5\" type=\"radio\" name=\"type\" value=\"Десертные\" disabled>\n\t\t\t\t\t<label for=\"type5\">Десертные</label>\n\t\t\t\t\t<input id=\"type6\" type=\"radio\" name=\"type\" value=\"Слоистые\">\n\t\t\t\t\t<label for=\"type6\">Слоистые</label>\n\t\t\t\t\t<input id=\"type7\" type=\"radio\" name=\"type\" value=\"Дейзи\" disabled>\n\t\t\t\t\t<label for=\"type7\">Дейзи</label>\n\t\t\t\t\t<input id=\"type8\" type=\"radio\" name=\"type\" value=\"Джулепы\" disabled>\n\t\t\t\t\t<label for=\"type8\">Джулепы</label>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"scroll\">\n                    <div class=\"upArrow inactive\"></div>\n                    <div class=\"downArrow\"></div>\n                    <div class=\"scroller\"></div>\n            \t</div>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"title blue\">\n\t\t\t\t<span class=\"titleInfo\">Крепость</span>\n\t\t\t\t<span class=\"titleExtra\">4 видов</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t<div class=\"scrollblock\">\n\t\t\t\t\t<input id=\"strong1\" type=\"radio\" name=\"strong\" value=\"Безалкогольные\">\n\t\t\t\t\t<label for=\"strong1\">Безалкогольные </label>\n\t\t\t\t\t<input id=\"strong2\" type=\"radio\" name=\"strong\" value=\"Слабоградусные\" checked>\n\t\t\t\t\t<label for=\"strong2\">Слабоградусные<span class=\"degree\">6..15%</span></label>\n\t\t\t\t\t<input id=\"strong3\" type=\"radio\" name=\"strong\" value=\"Полукрепкие\">\n\t\t\t\t\t<label for=\"strong3\">Полукрепкие<span class=\"degree\">16..22%</span></label>\n\t\t\t\t\t<input id=\"strong4\" type=\"radio\" name=\"strong\" value=\"Крепкие\">\n\t\t\t\t\t<label for=\"strong4\">Крепкие<span class=\"degree\">>23%</span></label>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"title blue\">\n\t\t\t\t<span class=\"titleInfo\">Основа</span>\n\t\t\t\t<span class=\"titleExtra\">8 напитков</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t<div class=\"scrollblock\">\n\t\t\t\t\t<input id=\"drink1\" type=\"radio\" name=\"drink\" value=\"Абсент\">\n\t\t\t\t\t<label for=\"drink1\">Абсент</label>\n\t\t\t\t\t<input id=\"drink2\" type=\"radio\" name=\"drink\" value=\"Водка\" checked>\n\t\t\t\t\t<label for=\"drink2\">Водка</label>\n\t\t\t\t\t<input id=\"drink3\" type=\"radio\" name=\"drink\" value=\"Джин\">\n\t\t\t\t\t<label for=\"drink3\">Джин</label>\n\t\t\t\t\t<input id=\"drink4\" type=\"radio\" name=\"drink\" value=\"Виски\">\n\t\t\t\t\t<label for=\"drink4\">Виски</label>\n\t\t\t\t\t<input id=\"drink5\" type=\"radio\" name=\"drink\" value=\"Бренди\">\n\t\t\t\t\t<label for=\"drink5\">Бренди</label>\n\t\t\t\t\t<input id=\"drink6\" type=\"radio\" name=\"drink\" value=\"Ликер\">\n\t\t\t\t\t<label for=\"drink6\">Ликер</label>\n\t\t\t\t\t<input id=\"drink7\" type=\"radio\" name=\"drink\" value=\"Кальвадос\">\n\t\t\t\t\t<label for=\"drink7\">Кальвадос</label>\n\t\t\t\t\t<input id=\"drink8\" type=\"radio\" name=\"drink\" value=\"Текила\">\n\t\t\t\t\t<label for=\"drink8\">Текила</label>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"scroll\">\n                    <div class=\"upArrow inactive\"></div>\n                    <div class=\"downArrow\"></div>\n                    <div class=\"scroller\"></div>\n            \t</div>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t\t<!--second raw-->\n\t\t<div class=\"block wide\">\n\t\t\t<div class=\"title lightBlue\">\n\t\t\t\t<span class=\"titleInfo\">Ингридиенты</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"block narrow mini\">\n\t\t\t\t<div class=\"title purple\">\n\t\t\t\t\t<span class=\"titleInfo\">Порции</span>\n\t\t\t\t\t<span class=\"titleExtra\">n напитков</span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"block narrow mini\">\n\t\t\t\t<div class=\"title purple\">\n\t\t\t\t\t<span class=\"titleInfo\">Сложность</span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"block narrow mini\">\n\t\t\t\t<div class=\"title purple\">\n\t\t\t\t\t<span class=\"titleInfo\">Время</span>\n\t\t\t\t\t<span class=\"titleExtra\">приготовления</span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"block narrow mini\">\n\t\t\t\t<div class=\"title purple\">\n\t\t\t\t\t<span class=\"titleInfo\">Метод</span>\n\t\t\t\t\t<span class=\"titleExtra\">n методов</span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"blockContent\">\n\t\t\t\t\t<div id=\"toScroll3\" class=\"scrollblock\" style=\"margin-top: 0;\">\n\t\t\t\t\t\t<input id=\"method1\" type=\"radio\" name=\"method\" value=\"В шейкере\">\n\t\t\t\t\t\t<label for=\"method1\">В шейкере</label>\n\t\t\t\t\t\t<input id=\"method2\" type=\"radio\" name=\"method\" value=\"Не важно\" checked>\n\t\t\t\t\t\t<label for=\"method2\">Не важно</label>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"scroll\">\n\t                    <div class=\"upArrow inactive\"></div>\n\t                    <div class=\"downArrow\"></div>\n\t                    <div class=\"scroller\" style=\"height:20px;\"></div>\n        \t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<!--third raw-->\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"title blue\">\n\t\t\t\t<span class=\"titleInfo\">Украшения</span>\n\t\t\t\t<span class=\"titleExtra\">n видов</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"block narrow\">\n\t\t\t<div class=\"title blue\">\n\t\t\t\t<span class=\"titleInfo\">Теги</span>\n\t\t\t\t<span class=\"titleExtra\">n тег</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"block wide\">\n\t\t\t<div class=\"title lightBlue\">\n\t\t\t\t<span class=\"titleInfo\">Основа</span>\n\t\t\t</div>\n\t\t\t<div class=\"blockContent\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\n\t</div>\n</body>\n</html>",
+			"file": "sommelier/index.html",
+			"file_size": 6975,
+			"file_write_time": 131460688329507164,
+			"settings":
+			{
+				"buffer_size": 6178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sommelier/style.css",
+			"settings":
+			{
+				"buffer_size": 2917,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sommelier example/index.html",
+			"settings":
+			{
+				"buffer_size": 37030,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sommelier example/css/style.css",
+			"settings":
+			{
+				"buffer_size": 9699,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "ss css",
+		"selected_items":
+		[
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ss htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: int",
+				"Package Control: Install Package"
+			],
+			[
+				"ss lis",
+				"Set Syntax: Lisp"
+			]
+		],
+		"width": 356.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier example",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier example/css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier"
+	],
+	"file_history":
+	[
+		"/C/Users/Alex/Documents/Универ/OOP/Labs/Projects/WindowsGame1/WindowsGame1/WindowsGame1/Game1.cs",
+		"/C/Users/Alex/Desktop/Electronic-sommelier-master/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 02/03 - horses/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier example/css/style.css",
+		"/C/Games/Magicka/errorReport_2017.07.25-02.49.26_(1).txt",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier/css/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/sommelier/js/main.js",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 02/05 - menu/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 02/05 - menu/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 02/04 - feedback/index.html",
+		"/C/Users/Alex/Desktop/Новый текстовый документ.txt",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 02/01 - social/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 02/02 - tak-tiks/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks 01/14 - glamorous button/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/10 - valid input/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/14 - glamorous button/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/Таски до среды 29_07.txt",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/10 - valid input/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/09 - wheather/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/08 - rating/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/05 - registration form/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/05 - registration form/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/01 - turned h1/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/01 - turned h1/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/13 - form/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/12 - squares/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/12 - squares/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/11 - round diagram/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/9 - wheather/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/8 - rating/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/8 - rating/test.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/7 - button/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/7 - button/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/6 - table/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/5 - registration form/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/5 - registration form/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/4 - table/style.css",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/4 - table/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/3 - blockquote/index.html",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/practical tasks/3 - blockquote/style.css",
+		"/C/Users/Alex/Desktop/Шмойства/Sasha tasks/2/index.html",
+		"/C/Users/Alex/Desktop/Шмойства/Sasha tasks/2/style.css",
+		"/C/Users/Alex/Desktop/Шмойства/Sasha tasks/1/index.html",
+		"/C/Users/Alex/Desktop/Шмойства/Sasha tasks/1/style.css",
+		"/C/Users/Alex/Documents/Универ/БД/Voyage_drop.sql",
+		"/C/Users/Alex/Documents/GitHub/web_dev_learning/my skills and wishes.txt",
+		"/C/Users/Alex/Desktop/Шмойства/Sasha tasks/ekg-5.txt",
+		"/C/Users/Alex/Documents/Универ/БД/Voyage_create.sql",
+		"/C/Users/Alex/Downloads/Voyage_create.sql",
+		"/C/Users/Alex/Documents/Универ/OOP/Labs/Projects/EscalatorPoject/EscalatorPoject/Program.cs",
+		"/C/Users/Alex/Desktop/Шмойства/Alex.plr",
+		"/C/Users/Alex/Documents/Универ/Алгоритмы и структуры/Projects/QSort/QSort/Program.cs",
+		"/C/Users/Alex/Pictures/DJ_Classic_Doodle.png",
+		"/C/Games/Ftb/FTBLauncherLog.txt",
+		"/C/Games/Ftb/CloudsofDarkness/minecraft/config/InvTweaksRules.txt",
+		"/C/Users/Alex/Desktop/neke/KbAdd-UA - копия.xml",
+		"/C/Downloads/Battlefield 2 (2005) Repack от Canek77/F.A.Q/F.A.Q. по Battlefield 2.txt",
+		"/C/Users/Alex/AppData/Roaming/.atlauncher/atlauncher.conf",
+		"/C/Users/Alex/Desktop/neke/remove_ua.bat",
+		"/C/Users/Alex/Desktop/neke/add_ua.bat",
+		"/C/Users/Alex/Downloads/KbAdd-UA.xml",
+		"/C/Users/Alex/Desktop/Шмойства/neke/add_ua.txt",
+		"/C/Users/Alex/Desktop/Шмойства/Новая папка/Новый текстовый документ.txt",
+		"/C/Users/Alex/AppData/Local/Temp/Rar$DIa0.024/manifest.json",
+		"/C/Users/Alex/AppData/Local/Temp/Rar$DIa0.068/perms.txt",
+		"/C/Downloads/Battlefield 2 (2005) Repack от Canek77/F.A.Q/Регистрация и авторизация в игре.txt",
+		"/C/Users/Alex/Documents/My Games/Terraria/servers.dat",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Alex/Desktop/suchWow.txt",
+		"/C/Users/Alex/Desktop/Linds.ttf",
+		"/C/Users/Alex/Documents/My Games/Terraria/config.json",
+		"/C/Games/Terraria v1.3.4.4 Rus/RUS_readme.txt",
+		"/C/Games/Terraria v1.3.4.4 Rus/TerrariaRus.config",
+		"/C/Users/Alex/Documents/My Games/Terraria/input profiles.json",
+		"/C/Users/Alex/Desktop/doodle.cpp",
+		"/C/Users/Alex/Desktop/Шмойства/oper.lsp",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Demigod/Game.prefs",
+		"/C/Users/Alex/Desktop/Шмойства/recursiveTest",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Demigod/Game.prefs.new",
+		"/C/Downloads/Adobe Photoshop CC 2015.5.1 (20160722.r.156) Ml_Rus/Лечение.txt",
+		"/C/Users/Alex/AppData/Local/Temp/Rar$DIa0.147/Читать.txt",
+		"/C/Users/Alex/AppData/Local/Temp/Rar$DIa0.248/Читать.txt",
+		"/C/Users/Alex/Desktop/Шмойства/Unnamed",
+		"/C/Users/Alex/Desktop/Читать.txt",
+		"/C/Users/Alex/AppData/Local/Temp/Rar$DIa0.710/Читать.txt",
+		"/C/Downloads/Sony Vegas Pro 11.0 Build 700_701 Final Ml_Rus/Readme.txt",
+		"/C/Users/Public/Documents/Unity Projects/Arrowphysics/Assets/Resources/Scripts/LockCursor.cs",
+		"/C/Downloads/Uniblue DriverScanner 2015 4.0.13.0 x86 x64 [2015, MULTILANG +RUS]/key.txt",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Supreme Commander Forged Alliance/mods/NameStuff ExamplePrime v1.1/modules/nameunits.lua",
+		"/C/Downloads/Adobe Photoshop CC 2015.5.1 (20160722.r.156) Ml_Rus/Как включить английский интерфейс.txt",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Supreme Commander Forged Alliance/mods/NameStuff ExamplePrime v1.1/hook/lua/ui/game/gamemain.lua",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Supreme Commander Forged Alliance/mods/NameAllTheThings/modules/nameunits.lua",
+		"/C/Games/Left 4 Dead 2/rev.ini",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Supreme Commander Forged Alliance/mods/NameAllTheThings/README.md",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Supreme Commander Forged Alliance/mods/NameStuff/mod_info.lua",
+		"/C/Users/Alex/Documents/My Games/Gas Powered Games/Supreme Commander Forged Alliance/mods/NameStuff/modules/allunits.lua",
+		"/C/Users/Alex/Desktop/pak01_dir.vpk",
+		"/C/Games/Left 4 Dead 2/left4dead2/pak01_dir.vpk",
+		"/C/Users/Alex/AppData/Local/Temp/Novy_textovy_dokument_2.txt",
+		"/C/Users/Alex/AppData/Local/Temp/Novy_textovy_dokument.txt",
+		"/C/Downloads/Left 4 Dead 2 v2.1.3.7/!!! README !!!.txt",
+		"/C/Users/Alex/Desktop/downlords-faf-client-develop/settings.gradle",
+		"/C/Games/Supreme Commander/Supreme Commander - Forged Alliance/Installed.prefs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" {",
+			"Водка",
+			"Абсент",
+			"drink",
+			"font-si",
+			";\n",
+			"last",
+			">\n",
+			"last",
+			"Виски",
+			"Джин",
+			"Водка",
+			"Абсент",
+			"font",
+			"text-s",
+			"drink",
+			"type",
+			"disabled",
+			"Джулепы",
+			"Дейзи",
+			"Слоистые",
+			"Десертные",
+			"Молочные",
+			"Горячие",
+			"Диджестивы",
+			".blockContent ul li,\n.mini .blockContent ul.method li ",
+			"itype",
+			".selected",
+			".selected:af",
+			"float",
+			"li",
+			".li",
+			".li{",
+			"content",
+			"blue",
+			"mini",
+			"leftSide",
+			".last",
+			".li:after",
+			"scroll",
+			"37ABFF",
+			" after",
+			" before",
+			"; ",
+			"  ",
+			" +",
+			" \t",
+			" hover",
+			"hover",
+			" *",
+			":",
+			"container",
+			"%;\n",
+			"fb",
+			"div",
+			"span",
+			";\n",
+			"th",
+			"blockquote",
+			"AUTO_INCREMENT",
+			"nil",
+			"null",
+			"CursorLockMode",
+			"loginwith"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sommelier/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2802,
+								2802
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sommelier/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1872,
+								1872
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1410.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "sommelier example/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13698,
+								13718
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 27451.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sommelier example/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3897,
+								3904
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3016.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.745065789473,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime_proj.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

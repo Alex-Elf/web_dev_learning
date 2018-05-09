@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Электронный сомелье</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!--first raw-->
+		<div class="block narrow">
+			<div class="title blue">
+				<span class="titleInfo">Бокал</span>
+				<span class="titleExtra">n видов</span>
+			</div>
+			<div class="blockContent">
+				
+			</div>
+		</div>
+		<div class="block narrow">
+			<div class="title blue">
+				<span class="titleInfo">Тип</span>
+				<span class="titleExtra">8 типа</span>
+			</div>
+			<div class="blockContent">
+				<div id="toScroll1" class="scrollblock" style="margin-top: 0;">
+					<input id="type1" type="radio" name="type" value="Аппертивы">
+					<label for="type1">Аппертивы</label>
+					<input id="type2" type="radio" name="type" value="Диджестивы" checked>
+					<label for="type2">Диджестивы</label>
+					<input id="type3" type="radio" name="type" value="Горячие">
+					<label for="type3">Горячие</label>
+					<input id="type4" type="radio" name="type" value="Молочные" disabled>
+					<label for="type4">Молочные</label>
+					<input id="type5" type="radio" name="type" value="Десертные" disabled>
+					<label for="type5">Десертные</label>
+					<input id="type6" type="radio" name="type" value="Слоистые">
+					<label for="type6">Слоистые</label>
+					<input id="type7" type="radio" name="type" value="Дейзи" disabled>
+					<label for="type7">Дейзи</label>
+					<input id="type8" type="radio" name="type" value="Джулепы" disabled>
+					<label for="type8">Джулепы</label>
+				</div>
+				<div class="scroll">
+                    <div class="upArrow inactive"></div>
+                    <div class="downArrow"></div>
+                    <div class="scroller"></div>
+            	</div>
+			</div>
+			
+		</div>
+		<div class="block narrow">
+			<div class="title blue">
+				<span class="titleInfo">Крепость</span>
+				<span class="titleExtra">4 видов</span>
+			</div>
+			<div class="blockContent">
+				<div id="toScroll2" class="scrollblock" style="margin-top: 0;">
+					<input id="strong1" type="radio" name="strong" value="Безалкогольные">
+					<label for="strong1">Безалкогольные </label>
+					<input id="strong2" type="radio" name="strong" value="Слабоградусные" checked>
+					<label for="strong2">Слабоградусные<span class="degree">6..15%</span></label>
+					<input id="strong3" type="radio" name="strong" value="Полукрепкие">
+					<label for="strong3">Полукрепкие<span class="degree">16..22%</span></label>
+					<input id="strong4" type="radio" name="strong" value="Крепкие">
+					<label for="strong4">Крепкие<span class="degree">>23%</span></label>
+				</div>
+			</div>
+		</div>
+		<div class="block narrow">
+			<div class="title blue">
+				<span class="titleInfo">Основа</span>
+				<span class="titleExtra">8 напитков</span>
+			</div>
+			<div class="blockContent">
+				<div id="toScroll3" class="scrollblock" style="margin-top: 0;">
+					<input id="drink1" type="radio" name="drink" value="Абсент">
+					<label for="drink1">Абсент</label>
+					<input id="drink2" type="radio" name="drink" value="Водка" checked>
+					<label for="drink2">Водка</label>
+					<input id="drink3" type="radio" name="drink" value="Джин">
+					<label for="drink3">Джин</label>
+					<input id="drink4" type="radio" name="drink" value="Виски">
+					<label for="drink4">Виски</label>
+					<input id="drink5" type="radio" name="drink" value="Бренди">
+					<label for="drink5">Бренди</label>
+					<input id="drink6" type="radio" name="drink" value="Ликер">
+					<label for="drink6">Ликер</label>
+					<input id="drink7" type="radio" name="drink" value="Кальвадос">
+					<label for="drink7">Кальвадос</label>
+					<input id="drink8" type="radio" name="drink" value="Текила">
+					<label for="drink8">Текила</label>
+				</div>
+				<div class="scroll">
+                    <div class="upArrow inactive"></div>
+                    <div class="downArrow"></div>
+                    <div class="scroller"></div>
+            	</div>
+			</div>
+			
+		</div>
+		<!--second raw-->
+		<div class="block wide">
+			<div class="title lightBlue">
+				<span class="titleInfo">Ингридиенты</span>
+			</div>
+			<div class="blockContent">
+				
+			</div>
+		</div>
+		<div class="block narrow">
+			<div class="block narrow mini">
+				<div class="title purple">
+					<span class="titleInfo">Порции</span>
+					<span class="titleExtra">n напитков</span>
+				</div>
+				<div class="blockContent">
+				
+				</div>
+			</div>
+			<div class="block narrow mini">
+				<div class="title purple">
+					<span class="titleInfo">Сложность</span>
+				</div>
+				<div class="blockContent">
+				
+				</div>
+			</div>
+		</div>
+		<div class="block narrow">
+			<div class="block narrow mini">
+				<div class="title purple">
+					<span class="titleInfo">Время</span>
+					<span class="titleExtra">приготовления</span>
+				</div>
+				<div class="blockContent">
+				
+				</div>
+			</div>
+			<div class="block narrow mini">
+				<div class="title purple">
+					<span class="titleInfo">Метод</span>
+					<span class="titleExtra">n методов</span>
+				</div>
+				<div class="blockContent">
+					<div id="toScroll3" class="scrollblock" style="margin-top: 0;">
+						<input id="method1" type="radio" name="method" value="В шейкере">
+						<label for="method1">В шейкере</label>
+						<input id="method2" type="radio" name="method" value="Не важно" checked>
+						<label for="method2">Не важно</label>
+					</div>
+					<div class="scroll">
+	                    <div class="upArrow inactive"></div>
+	                    <div class="downArrow"></div>
+	                    <div class="scroller" style="height:20px;"></div>
+        			</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--third raw-->
+		<div class="block narrow">
+			<div class="title blue">
+				<span class="titleInfo">Украшения</span>
+				<span class="titleExtra">n видов</span>
+			</div>
+			<div class="blockContent">
+				
+			</div>
+		</div>
+		<div class="block narrow">
+			<div class="title blue">
+				<span class="titleInfo">Теги</span>
+				<span class="titleExtra">n тег</span>
+			</div>
+			<div class="blockContent">
+				
+			</div>
+		</div>
+		<div class="block wide">
+			<div class="title lightBlue">
+				<span class="titleInfo">Основа</span>
+			</div>
+			<div class="blockContent">
+				
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
